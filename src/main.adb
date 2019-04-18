@@ -4,6 +4,8 @@ with darbolordinario;
 with dcola;
 with Ada.Text_IO;
 use Ada.Text_IO;
+with Ada.Integer_Text_IO;
+use Ada.Integer_Text_IO;
 
 procedure main is
 
@@ -17,18 +19,74 @@ procedure main is
       Put_Line("Jugador: " & s.jugador'Image);
       print(s.t);
    end print;
+   
+    --Algoritmo que genera el espacio de estados para un determinado estado
+   --inicial
+   procedure genera_estats(t: in out arbol) is
+      s: estat;   --estado
+      b: tauler;  --board
+      j: integer; --player
+      cont: boolean;
+      type array_tipus is array(1..2) of peces;
+      array_peces: array_tipus;
 
-   procedure fillBoard (t: tauler; state: String) is
+   begin
+      array_peces(1..2) := ('X', 'O');
+      cont := true;
+
+      while cont loop
+         s := raiz(t);    --obtain state
+         b := s.t;        --obtain board
+
+         if s.jugador = 1 then
+            j := 2;
+         else
+            j := 1;
+         end if;
+
+         --Anadir hijos a raiz del arbol
+         filas:
+         for i in 1..3 loop
+            columnas:
+            for j in 1..3 loop
+               if b(i,j) = '-' then
+                  b(i,j) := array_peces(j);
+
+                  s.all := (b, j);
+
+                  anadir_hijo(t, s);
+               end if;
+            end loop columnas;
+         end loop filas;
+
+         --Verificar si arbol tiene hijos
+         if e_primer_hijo(t) then
+            primer_hijo(t, t);
+            generar_estats(t); --Generar estados hijos de primer hijo
+            padre(t, t);
+         end if;
+
+         --Verificar si subarbol tiene subarbol hermano
+         if e_hermano(t) then
+            hermano(t,t);
+         else
+            cont = false;
+         end if;
+
+      end loop;
+
+   end genera_estats;
+
+   procedure fillBoard (t: out tauler; state: in String) is
       index: Integer:=0;
-
    begin
 
       for I in 1..3 loop
 
          for E in 1..3 loop
-
-            t(I, E):=state(1);
-         index:=index+1;
+            --p:= peces'state(0);
+         --   t(I, E) := p;
+            index:=index+1;
          end loop;
 
       end loop;
@@ -41,24 +99,39 @@ procedure main is
   -- type parbol is access arbol;
   -- package dcolaarbol is new dcola(parbol);
   -- use dcolaarbol;
+
    state: String(1..9);
-  -- type state is array (1..9) of Character;
-   lastPlayer: Character;
-   e: estat;
+
+   lastPlayer: String(1..1);
+   type pestat is access estat;
+   e: pestat;
    a: arbol;
    t: tauler;
 
+   index: Integer:=0;
+   p: peces;
+
 begin
 
+   --Recoger datos proporcionados por el usuario.
    Put("Introduce un estado inicial del juego: ");
-   get(state);
-   Put_Line(state);
-   Put_Line(" ");
+   Get(state);
+   New_Line;
    Put("Introduce el último jugador que ha realizado el movimiento (1-2): ");
-   Get(lastPlayer);
+   get(lastPlayer);
 
-   fillBoard(t, state);
-   e.all:=(t, lastPlayer);
+
+      for I in 1..3 loop
+
+      for E in 1..3 loop
+         p:= state(0);
+            t(I, E) := p;
+            index:=index+1;
+         end loop;
+
+      end loop;
+
+   e.all:=(t, Integer'Value(lastPlayer));
 
 
 end main;
