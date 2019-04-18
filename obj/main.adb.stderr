@@ -1,0 +1,2 @@
+main.adb:30:13: array type required in indexed component
+main.adb:61:06: prefix of dereference must be an access type

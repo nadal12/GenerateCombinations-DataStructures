@@ -1,0 +1,92 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		c10c5f4e NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W darbolordinario%s	darbolordinario.adb	darbolordinario.ali
+W dcola%s		dcola.adb		dcola.ali
+W dtauler%s		dtauler.adb		dtauler.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D darbolordinario.ads	20190418145050 de2e2175 darbolordinario%s
+D darbolordinario.adb	20190418145222 cf0e1748 darbolordinario%b
+D dcola.ads		20190418104904 b8d48fa9 dcola%s
+D dcola.adb		20190418104904 c7b6697d dcola%b
+D dtauler.ads		20190418104904 3865360e dtauler%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main.adb		20190418153306 178e74c6 main%b
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|5r6 6r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 15|5w10 6r9
+206U14*Get 15|36s4
+240U14*Get 15|32s4
+242U14*Put 15|31s4 35s4
+263U14*Put_Line 15|17s7 33s3 34s4
+X 8 darbolordinario.ads
+10k12*darbolordinario 48e20 15|3w6 21r32
+X 10 dcola.ads
+7k9*dcola 40e10 15|4w6
+X 12 dtauler.ads
+1K9*dtauler 38e12 15|1w6 2r5
+3A9*tauler(35E9) 15|11r10
+12U14*print 15|18s7
+X 15 main.adb
+8U11*main 8b11 41l5 41t9
+10R9 estat 13e14 15r27 21r48
+11a7 t{12|3A9} 18r15
+12i7 jugador{integer} 17r32
+15U14 print 15b14 15>21 19l8 19t13 21r55
+15r21 s{10R9} 17r30 18r13
+21K12 darboltauler[8|10] 22r8
+27a4 state{string} 32m8 33r12
+28e4 lastPlayer{character} 36m8
+

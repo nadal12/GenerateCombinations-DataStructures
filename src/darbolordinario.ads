@@ -2,46 +2,47 @@ with dcola;
 
 generic
    type elem is private;
+   with procedure visita(x: elem);
 
-   with procedure visit(x: in elem);
+   --with package micola is new dcola(elem);
+   --use micola;
 
-   with package dcolaelem is new dcola(elem);
-   use dcolaelem;
-package darbolordinario is
+   package darbolordinario is
    type arbol is limited private;
 
    mal_uso: exception;
    espacio_desbordado: exception;
 
-   procedure avacio (t: out arbol);
-   function esta_vacio (t: in arbol) return Boolean;
-   procedure anadir_hijo (t: in out arbol; x: in elem);
-   function e_primer_hijo (t: in arbol) return Boolean;
-   procedure primer_hijo (t: in arbol; ct: out arbol);
-   procedure atom (t: out arbol; x: in elem);
+   procedure avacio(t: out arbol);
+   function esta_Vacio(t: in arbol) return boolean;
+   procedure añadir_hijo(t: in out arbol; x: in elem);
+   function e_primer_hijo(t: in arbol) return boolean;
+   procedure primer_hijo(t: in arbol; ct: out arbol);
+   procedure atomo (t: out arbol; x: in elem);
    function raiz(t: in arbol) return elem;
-   function e_hermano (t: in arbol) return Boolean;
-   procedure hermano (t: in arbol; st: out arbol);
-   function e_padre (t: in arbol) return Boolean;
-   procedure padre (t: in arbol; pt: out arbol);
+   function e_hermano(t: in arbol) return boolean;
+   procedure hermano(t: in arbol; st: out arbol);
+   function e_padre(t: in arbol) return boolean;
+   procedure padre(t: in arbol; pt: out arbol);
+   procedure r_amplitud(t: in arbol);
+  -- procedure r_amplitud(t: in arbol; qu: out cola);
 
-   procedure amplitud (t: in arbol);
-   procedure amplitud (t: in arbol; q: out dcolaelem.cola);
 
 private
 
-   type node;
-   type pnode is access node;
+   type nodo;
+   type pnodo is access nodo;
 
-   type node is record
-      c: elem;
-      padre: pnode;
-      hermano: pnode;
-      primer_hijo: pnode;
+   --Nodos que conforman un arbol
+   type nodo is record
+      x: elem;    --Elemento del nodo
+      pp: pnodo;  --Puntero al padre
+      pb: pnodo;  --Puntero a hermanos derechos
+      pc: pnodo;  --Puntero a hijo izquierdo o único
    end record;
 
-   type arbol is
-      record
-         raiz: pnode;
-      end record;
+   type arbol is record
+      raiz: pnodo;  --Puntero al nodo raiz
+   end record;
+
 end darbolordinario;
