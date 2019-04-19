@@ -70,68 +70,52 @@ procedure main is
          if e_hermano(t) then
             hermano(t,t);
          else
-            cont = false;
+            cont := false;
          end if;
 
       end loop;
 
    end genera_estats;
 
-   procedure fillBoard (t: out tauler; state: in String) is
-      index: Integer:=0;
-   begin
-
-      for I in 1..3 loop
-
-         for E in 1..3 loop
-            --p:= peces'state(0);
-         --   t(I, E) := p;
-            index:=index+1;
-         end loop;
-
-      end loop;
-
-   end fillBoard;
-
    package darboltauler is new darbolordinario(estat, print);
    use darboltauler;
 
-  -- type parbol is access arbol;
-  -- package dcolaarbol is new dcola(parbol);
-  -- use dcolaarbol;
+   type parbol is access arbol;
+   package dcolaarbol is new dcola(parbol);
+   use dcolaarbol;
 
-   state: String(1..9);
-
-   lastPlayer: String(1..1);
-   type pestat is access estat;
-   e: pestat;
-   a: arbol;
-   t: tauler;
-
-   index: Integer:=0;
+   lastPlayer: integer; 
+   estado: String(1..9); 
+   t: tauler; 
+   index: integer:=1;  
    p: peces;
-
-begin
-
+   
+begin  
+   
    --Recoger datos proporcionados por el usuario.
    Put("Introduce un estado inicial del juego: ");
-   Get(state);
+   get(estado); 
    New_Line;
    Put("Introduce el último jugador que ha realizado el movimiento (1-2): ");
    get(lastPlayer);
-
-
-      for I in 1..3 loop
-
+   
+   for I in 1..3 loop
       for E in 1..3 loop
-         p:= state(0);
-            t(I, E) := p;
-            index:=index+1;
-         end loop;
-
-      end loop;
-
-   e.all:=(t, Integer'Value(lastPlayer));
-
-
+         
+         p:= peces'First; 
+         t(I, E) := p;
+         index:=index+1; 
+         
+      end loop; 
+   end loop; 
+   
+   
+   --datosIniciales(t, estado);
+   
+ --  e.t:= t; 
+--   e.jugador:=lastPlayer; 
+   
+  -- atomo(a, e); 
+   
+   
 end main;

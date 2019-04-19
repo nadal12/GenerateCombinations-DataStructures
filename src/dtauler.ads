@@ -29,6 +29,8 @@ package dtauler is
    -- imatge de la peça ('X', 'O')
    function getJugador(p: in string) return integer;
 
+  --procedure datosIniciales(t: in out tauler; estat: in out String);
+
 private
    dimensio: integer := 3;
    numJugadors: integer := 2;

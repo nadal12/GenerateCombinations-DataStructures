@@ -21,16 +21,16 @@ package body ada_main is
    E078 : Short_Integer; pragma Import (Ada, E078, "system__object_reader_E");
    E045 : Short_Integer; pragma Import (Ada, E045, "system__dwarf_lines_E");
    E037 : Short_Integer; pragma Import (Ada, E037, "system__traceback__symbolic_E");
-   E097 : Short_Integer; pragma Import (Ada, E097, "ada__tags_E");
-   E105 : Short_Integer; pragma Import (Ada, E105, "ada__streams_E");
-   E113 : Short_Integer; pragma Import (Ada, E113, "system__file_control_block_E");
-   E112 : Short_Integer; pragma Import (Ada, E112, "system__finalization_root_E");
-   E110 : Short_Integer; pragma Import (Ada, E110, "ada__finalization_E");
-   E109 : Short_Integer; pragma Import (Ada, E109, "system__file_io_E");
-   E103 : Short_Integer; pragma Import (Ada, E103, "ada__text_io_E");
-   E117 : Short_Integer; pragma Import (Ada, E117, "dcola_E");
-   E115 : Short_Integer; pragma Import (Ada, E115, "darbolordinario_E");
-   E119 : Short_Integer; pragma Import (Ada, E119, "dtauler_E");
+   E103 : Short_Integer; pragma Import (Ada, E103, "ada__tags_E");
+   E101 : Short_Integer; pragma Import (Ada, E101, "ada__streams_E");
+   E115 : Short_Integer; pragma Import (Ada, E115, "system__file_control_block_E");
+   E114 : Short_Integer; pragma Import (Ada, E114, "system__finalization_root_E");
+   E112 : Short_Integer; pragma Import (Ada, E112, "ada__finalization_E");
+   E111 : Short_Integer; pragma Import (Ada, E111, "system__file_io_E");
+   E099 : Short_Integer; pragma Import (Ada, E099, "ada__text_io_E");
+   E137 : Short_Integer; pragma Import (Ada, E137, "dcola_E");
+   E135 : Short_Integer; pragma Import (Ada, E135, "darbolordinario_E");
+   E139 : Short_Integer; pragma Import (Ada, E139, "dtauler_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -41,7 +41,7 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E103 := E103 - 1;
+      E099 := E099 - 1;
       declare
          procedure F1;
          pragma Import (Ada, F1, "ada__text_io__finalize_spec");
@@ -52,7 +52,7 @@ package body ada_main is
          procedure F2;
          pragma Import (Ada, F2, "system__file_io__finalize_body");
       begin
-         E109 := E109 - 1;
+         E111 := E111 - 1;
          F2;
       end;
       declare
@@ -188,23 +188,23 @@ package body ada_main is
       E078 := E078 + 1;
       Ada.Tags'Elab_Spec;
       Ada.Tags'Elab_Body;
-      E097 := E097 + 1;
+      E103 := E103 + 1;
       Ada.Streams'Elab_Spec;
-      E105 := E105 + 1;
+      E101 := E101 + 1;
       System.File_Control_Block'Elab_Spec;
-      E113 := E113 + 1;
+      E115 := E115 + 1;
       System.Finalization_Root'Elab_Spec;
-      E112 := E112 + 1;
+      E114 := E114 + 1;
       Ada.Finalization'Elab_Spec;
-      E110 := E110 + 1;
+      E112 := E112 + 1;
       System.File_Io'Elab_Body;
-      E109 := E109 + 1;
+      E111 := E111 + 1;
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
-      E103 := E103 + 1;
-      E117 := E117 + 1;
-      E115 := E115 + 1;
-      E119 := E119 + 1;
+      E099 := E099 + 1;
+      E137 := E137 + 1;
+      E135 := E135 + 1;
+      E139 := E139 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -240,12 +240,12 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\dcola.o
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\darbolordinario.o
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\dtauler.o
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\main.o
-   --   -LC:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\
-   --   -LC:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\
+   --   C:\Users\Nadal\Desktop\Estructura de Datos\Practica 2\practica-2\obj\dcola.o
+   --   C:\Users\Nadal\Desktop\Estructura de Datos\Practica 2\practica-2\obj\darbolordinario.o
+   --   C:\Users\Nadal\Desktop\Estructura de Datos\Practica 2\practica-2\obj\dtauler.o
+   --   C:\Users\Nadal\Desktop\Estructura de Datos\Practica 2\practica-2\obj\main.o
+   --   -LC:\Users\Nadal\Desktop\Estructura de Datos\Practica 2\practica-2\obj\
+   --   -LC:\Users\Nadal\Desktop\Estructura de Datos\Practica 2\practica-2\obj\
    --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat

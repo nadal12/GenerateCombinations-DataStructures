@@ -19,10 +19,10 @@ U darbolordinario%b	darbolordinario.adb	1120363d NE OO PK GE IL
 U darbolordinario%s	darbolordinario.ads	66faaedc BN EE NE OO PK GE IL
 W dcola%s		dcola.adb		dcola.ali
 
-D darbolordinario.ads	20190418145050 de2e2175 darbolordinario%s
-D darbolordinario.adb	20190418145222 cf0e1748 darbolordinario%b
-D dcola.ads		20190418104904 b8d48fa9 dcola%s
-D dcola.adb		20190418104904 c7b6697d dcola%b
+D darbolordinario.ads	20190419132922 de2e2175 darbolordinario%s
+D darbolordinario.adb	20190419132922 cf0e1748 darbolordinario%b
+D dcola.ads		20190419132922 b8d48fa9 dcola%s
+D dcola.adb		20190419132922 c7b6697d dcola%b
 D system.ads		20180524051738 32a08138 system%s
 X 1 darbolordinario.ads
 4+9 elem 5r29 18r49 21r41 22r38 38r10 2|17r49 61r40 67r38
