@@ -25,11 +25,11 @@ procedure espaiestats is
    
    package darboltauler is new darbolordinario(estat, print, micola);
    use darboltauler;
---  
---     type parbol is access arbol;
---     package dcolaarbol is new dcola(parbol);
---     use dcolaarbol;
---    
+
+   type parbol is access arbol;
+   package dcolaarbol is new dcola(parbol);
+   use dcolaarbol;
+  
    lastPlayer: integer; 
    estado: String(1..9); 
    t: tauler; 
