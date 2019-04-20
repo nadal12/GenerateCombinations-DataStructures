@@ -3,8 +3,20 @@
   <Project>
     <vfs_file />
     <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\GNAT\2018\bin\src\main.adb</vfs_file>
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dtauler.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 30" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dtauler.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dtauler.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
@@ -12,325 +24,41 @@
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 2" line=" 19" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 11" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 9" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 11" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 4" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dcola.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dcola.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 4" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 2" line=" 19" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 2" line=" 19" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 2" line=" 19" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 11" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 11" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 2" line=" 19" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 48" line=" 11" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 11" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 8" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dcola.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 48" line=" 11" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 45" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 20" >
-      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 45" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
@@ -340,23 +68,103 @@
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 30" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dtauler.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\espaiestats.adb</vfs_file>
     </file_marker>
+    <file_marker column=" 21" line=" 155" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\espaiestats.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\dcola.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbolordinario.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29" >
+      <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbolordinario.ads</vfs_file>
+    </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbol.adb</vfs_file>
+      <vfs_file>C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\src\darbolordinario.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >

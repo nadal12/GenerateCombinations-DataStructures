@@ -7,7 +7,7 @@ use Ada.Text_IO;
 with Ada.Integer_Text_IO;
 use Ada.Integer_Text_IO;
 
-procedure espaiestats is
+procedure main is
    
    type estat is record
       t: tauler;
@@ -20,10 +20,7 @@ procedure espaiestats is
       print(s.t);
    end print;
    
-   package micola is new dcola(estat); 
-   use micola; 
-   
-   package darboltauler is new darbolordinario(estat, print, micola);
+   package darboltauler is new darbolordinario(estat, print);
    use darboltauler;
 
    type parbol is access arbol;
@@ -46,8 +43,9 @@ procedure espaiestats is
       j: integer; --player
       cont: boolean;
       c: tcella;  --celda
-
    begin
+      
+      d := getDimensio(raiz(t).t);  --Obtener dimension del tablero
       
       cont := true;
 
@@ -110,15 +108,12 @@ procedure espaiestats is
 
       c: tcella;
       index: integer:=1;
-      d: integer;
 
    begin
-
-      d := getDimensio(t);
       
-      for I in 1..d loop
+      for I in 1..DIM loop
          c.fila := I;
-         for E in 1..d loop
+         for E in 1..DIM loop
             c.columna := E;
             
             mouJugador(t, getJugador(estat(index) & ""), c);
@@ -130,7 +125,6 @@ procedure espaiestats is
 
    end omplir_tauler;
 
-   
 begin  
    
    --Recoger datos proporcionados por el usuario.
@@ -157,4 +151,4 @@ begin
    
    r_amplitud(a);
    
-end espaiestats;
+end main;

@@ -18,12 +18,12 @@ RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U ada_main%b		b__main.adb		09c6f478 OO PK IL
+U ada_main%b		b__espaiestats.adb	48b37d7b OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z system%s		system.ads		system.ali
 
-U ada_main%s		b__main.ads		689f2143 EE NE OO PK IL
+U ada_main%s		b__espaiestats.ads	c0f55692 EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -31,8 +31,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20180524051736 76789da1 ada%s
 D a-except.ads		20180524051736 291912d5 ada.exceptions%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
-D b__main.ads		20190420120608 32681266 ada_main%s
-D b__main.adb		20190420120608 12b7f4cb ada_main%b
+D b__espaiestats.ads	20190420134136 9a0265b7 ada_main%s
+D b__espaiestats.adb	20190420134136 fba80a19 ada_main%b
 D system.ads		20180524051738 32a08138 system%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
 D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
@@ -43,7 +43,7 @@ X 1 ada.ads
 16K9*Ada 20e8 5|6r6
 X 2 a-except.ads
 54K13*Exceptions 349e19 5|6w10
-X 4 b__main.ads
+X 4 b__espaiestats.ads
 6K9*ada_main 491l5 491e13 5|8b14 255l5 255t13
 8i4*gnat_argc{integer} 12m22 12r22 5|230m7
 9m4*gnat_argv{6|67M9} 13m22 13r22 5|231m7
@@ -220,7 +220,7 @@ X 4 b__main.ads
 332m4*u00147{39M9} 333r22
 334m4*u00148{39M9} 335r22
 336m4*u00149{39M9} 337r22
-X 5 b__main.adb
+X 5 b__espaiestats.adb
 10i4 E070{short_integer} 10m46 10r46 174m7 174r15
 11i4 E011{short_integer} 11m46 11r46 180m7 180r15
 12i4 E023{short_integer} 12m46 12r46 163m7 163r15
@@ -279,7 +279,7 @@ X 5 b__main.adb
 123p7*Finalize_Library_Objects{82P9} 124m25 124r25 159m7
 125i7*Binder_Sec_Stacks_Count{natural} 126m27 126r27 154m7
 127m7*Default_Sized_SS_Pool{6|67M9} 128m27 128r27 155m7
-210U14 Ada_Main_Program 211b<ada,_ada_main>24 236s7
+210U14 Ada_Main_Program 211b<ada,_ada_espaiestats>24 236s7
 219U17*Initialize 219>29 220b<c,__gnat_initialize>25 234s7
 219m29 Addr{6|67M9}
 222U17*Finalize 223b<c,__gnat_finalize>25 238s7

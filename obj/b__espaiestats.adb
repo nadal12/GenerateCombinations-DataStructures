@@ -1,7 +1,7 @@
 pragma Warnings (Off);
 pragma Ada_95;
-pragma Source_File_Name (ada_main, Spec_File_Name => "b__main.ads");
-pragma Source_File_Name (ada_main, Body_File_Name => "b__main.adb");
+pragma Source_File_Name (ada_main, Spec_File_Name => "b__espaiestats.ads");
+pragma Source_File_Name (ada_main, Body_File_Name => "b__espaiestats.adb");
 pragma Suppress (Overflow_Check);
 with Ada.Exceptions;
 
@@ -208,7 +208,7 @@ package body ada_main is
    end adainit;
 
    procedure Ada_Main_Program;
-   pragma Import (Ada, Ada_Main_Program, "_ada_main");
+   pragma Import (Ada, Ada_Main_Program, "_ada_espaiestats");
 
    function main
      (argc : Integer;
@@ -243,7 +243,7 @@ package body ada_main is
    --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\dcola.o
    --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\darbolordinario.o
    --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\dtauler.o
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\main.o
+   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\espaiestats.o
    --   -LC:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\
    --   -LC:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\
    --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/

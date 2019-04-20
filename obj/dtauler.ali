@@ -12,7 +12,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U dtauler%b		dtauler.adb		59f0e2e5 NE OO PK IL
+U dtauler%b		dtauler.adb		16ddc8ae NE OO PK IL
 W ada%s			ada.ads			ada.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -23,7 +23,7 @@ Z system.concat_3%s	s-conca3.adb		s-conca3.ali
 Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
 Z system.val_enum%s	s-valenu.adb		s-valenu.ali
 
-U dtauler%s		dtauler.ads		9373f176 EE NE OO PK IL
+U dtauler%s		dtauler.ads		3865360e EE NE OO PK IL
 Z ada.tags%s		a-tags.adb		a-tags.ali
 
 D ada.ads		20180524051736 76789da1 ada%s
@@ -33,8 +33,8 @@ D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
 D a-tags.ads		20180524051738 491b781d ada.tags%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
-D dtauler.ads		20190419143930 9373f176 dtauler%s
-D dtauler.adb		20190419145024 429ea0c9 dtauler%b
+D dtauler.ads		20190420115038 3865360e dtauler%s
+D dtauler.adb		20190420115050 a6a54dfa dtauler%b
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
 D system.ads		20180524051738 32a08138 system%s
@@ -61,10 +61,10 @@ X 6 a-textio.ads
 166U14*New_Line 9|15s7 22s10 24s7
 242U14*Put 9|20s13
 X 8 dtauler.ads
-1K9*dtauler 35E4 40l5 40e12 9|4b14 200l5 200t12
-3A9*tauler(37E9) 10r28 11r28 11r44 12r27 13r35 14r31 15r34 16r34 20r35 25r33
-. 32r38 38c9 9|6r28 11r27 27r35 32r31 37r34 42r34 47r28 47r44 59r35 79r27
-. 117r31 161r33 169r39
+1K9*dtauler 33E4 38l5 38e12 9|4b14 170l5 170t12
+3A9*tauler(35E9) 10r28 11r28 11r44 12r27 13r35 14r31 15r34 16r34 20r35 25r33
+. 36c9 9|6r28 11r27 27r35 32r31 37r34 42r34 47r28 47r44 59r35 79r27 117r31
+. 161r33
 5R9*tcella 8e14 13r77 16r52 9|27r77 42r52
 6i7*fila{integer} 9|29r15 44r22
 7i7*columna{integer} 9|29r27 44r34
@@ -93,19 +93,14 @@ X 8 dtauler.ads
 25i41 jugador{integer} 9|161b41 165r28 165r51
 30V13*getJugador{integer} 30>24 9|52b13 55l8 55t18
 30a24 p{string} 9|52b24 54r41
-32U13*datosIniciales 32=28 32=46 32=68 9|169b14 197l8 197t22
-32a28 t{3A9} 9|169b29 191m13
-32a46 estat{string} 9|169b47 179r16 183r16 187r16
-32i68 player{integer} 9|169b69
-35i4 dimensio{integer} 38r29 38r42 9|34r14 63r19 65r22 85r19 176r19 177r22
-36i4 numJugadors{integer} 9|39r14
-37E9 peces 37e33 38r55 9|8r34 12r10 29r39 44r45 54r14 54r24 67r26 80r42 171r10
-. 180r19
-37n19 '-'{37E9}
-37n24 'X'{37E9} 9|83r29 126r23 133r24 133r43 133r61 133r78 184r19
-37n29 'O'{37E9} 9|83r34 142r24 149r24 149r43 149r61 149r78 188r19
+33i4 dimensio{integer} 36r29 36r42 9|34r14 63r19 65r22 85r19
+34i4 numJugadors{integer} 9|39r14
+35E9 peces 35e33 36r55 9|8r34 12r10 29r39 44r45 54r14 54r24 67r26 80r42
+35n19 '-'{35E9}
+35n24 'X'{35E9} 9|83r29 126r23 133r24 133r43 133r61 133r78
+35n29 'O'{35E9} 9|83r34 142r24 149r24 149r43 149r61 149r78
 X 9 dtauler.adb
-12e7 p{8|37E9} 18m13 19r18
+12e7 p{8|35E9} 18m13 19r18
 13a7 s{string} 19m13 20r17
 16i11 i{integer} 18r20
 17i14 j{integer} 18r23
@@ -116,7 +111,7 @@ X 9 dtauler.adb
 79V13 isLinia{boolean} 79b13 79>21 79>35 108l8 108t15 165s40
 79a21 t{8|3A9} 87r26 88r21 89r21 92r26 93r21 94r21 97r26 98r21 99r21
 79i35 jugador{integer} 87r47 88r47 89r47 92r47 93r47 94r47 97r47 98r47 99r47
-80A12 array_tipus(8|37E9)<integer> 81r20
+80A12 array_tipus(8|35E9)<integer> 81r20
 81a7 array_peces{80A12} 83m7 87r35 88r35 89r35 92r35 93r35 94r35 97r35 98r35
 . 99r35
 85i11 i{integer} 86r15 87r28 87r30 88r23 88r28 89r23 89r28 92r28 92r30 93r23
@@ -125,8 +120,4 @@ X 9 dtauler.adb
 117a25 t{8|3A9} 126r13 133r15 133r34 133r54 133r71 142r14 149r15 149r34 149r54
 . 149r71
 117i39 jugador{integer} 123r10
-171e7 p{8|37E9} 180m16 184m16 188m16 191r22
-172i7 index{integer} 179r22 183r22 187r22 192m13 192r20
-176i11 I{integer} 191r15
-177i14 E{integer} 191r18
 

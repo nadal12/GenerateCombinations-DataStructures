@@ -166,35 +166,5 @@ package body dtauler is
 
    end isJocGuanyat;
 
---     procedure datosIniciales(t: in out tauler; estat: in out String) is
---
---        p: peces;
---        index: integer:=1;
---
---     begin
---
---        for I in 1..dimensio loop
---           for E in 1..dimensio loop
---
---              if estat(index) = '-' then
---                 p:=peces'First;
---              end if;
---
---              if estat(index) = 'X' then
---                 p:='X';
---              end if;
---
---              if estat(index) = 'O' then
---                 p:='O';
---              end if;
---
---              t(I, E):=p;
---              index:=index+1;
---
---           end loop;
---        end loop;
---
---     end datosIniciales;
-
 
 end dtauler;

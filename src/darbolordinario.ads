@@ -4,8 +4,8 @@ generic
    type elem is private;
    with procedure visita(x: elem);
 
-   --with package micola is new dcola(elem);
-   --use micola;
+   with package micola is new dcola(elem);
+   use micola;
 
    package darbolordinario is
    type arbol is limited private;
@@ -25,7 +25,7 @@ generic
    function e_padre(t: in arbol) return boolean;
    procedure padre(t: in arbol; pt: out arbol);
    procedure r_amplitud(t: in arbol);
-  -- procedure r_amplitud(t: in arbol; qu: out cola);
+   procedure r_amplitud(t: in arbol; qu: out cola);
 
 
 private

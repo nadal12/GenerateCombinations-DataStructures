@@ -20,7 +20,7 @@ package ada_main is
                     "GNAT Version: Community 2018 (20180523-73)" & ASCII.NUL;
    pragma Export (C, GNAT_Version, "__gnat_version");
 
-   Ada_Main_Program_Name : constant String := "_ada_main" & ASCII.NUL;
+   Ada_Main_Program_Name : constant String := "_ada_espaiestats" & ASCII.NUL;
    pragma Export (C, Ada_Main_Program_Name, "__gnat_ada_main_program_name");
 
    procedure adainit;
@@ -37,8 +37,8 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#66db5c32#;
-   pragma Export (C, u00001, "mainB");
+   u00001 : constant Version_32 := 16#67547f85#;
+   pragma Export (C, u00001, "espaiestatsB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
    u00003 : constant Version_32 := 16#35869f17#;
@@ -303,9 +303,9 @@ package ada_main is
    pragma Export (C, u00132, "system__val_unsB");
    u00133 : constant Version_32 := 16#168e1080#;
    pragma Export (C, u00133, "system__val_unsS");
-   u00134 : constant Version_32 := 16#1120363d#;
+   u00134 : constant Version_32 := 16#496948c1#;
    pragma Export (C, u00134, "darbolordinarioB");
-   u00135 : constant Version_32 := 16#66faaedc#;
+   u00135 : constant Version_32 := 16#918223ab#;
    pragma Export (C, u00135, "darbolordinarioS");
    u00136 : constant Version_32 := 16#7f62e6d4#;
    pragma Export (C, u00136, "dcolaB");
@@ -485,7 +485,7 @@ package ada_main is
    --  darbolordinario%b
    --  dtauler%s
    --  dtauler%b
-   --  main%b
+   --  espaiestats%b
    --  END ELABORATION ORDER
 
 end ada_main;

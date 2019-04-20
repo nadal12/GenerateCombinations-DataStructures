@@ -141,38 +141,38 @@ package body darbolordinario is
 
    end r_amplitud;
 
-  --Procedimiento que realiza un recorrido en amplitud del arbol introduciendo
---     --los elementos dentro de una cola.
---     procedure r_amplitud(t: in arbol; qu: out cola) is
---        package micola is new dcola(pnodo);
---        use micola;
---
---        q: micola.cola;
---        pt: pnodo renames t.raiz;
---        p: pnodo;
---
---     begin
---
---        if pt = null then raise mal_uso; end if;
---
---        p := pt;
---
---        cvacia(q);
---        poner(q, p);
---
---        while not esta_vacia(q) loop
---           p := coger_primero(q);
---           borrar_primero(q);
---           poner(qu, p.x);
---
---           p := p.pc;
---
---           while p /= null loop
---              poner(q, p);
---              p := p.pb;
---           end loop;
---        end loop;
---
---     end r_amplitud;
+   --Procedimiento que realiza un recorrido en amplitud del arbol introduciendo
+   --los elementos dentro de una cola.
+   procedure r_amplitud(t: in arbol; qu: out cola) is
+      package micola is new dcola(pnodo);
+      use micola;
+
+      q: micola.cola;
+      pt: pnodo renames t.raiz;
+      p: pnodo;
+
+   begin
+
+      if pt = null then raise mal_uso; end if;
+
+      p := pt;
+
+      cvacia(q);
+      poner(q, p);
+
+      while not esta_vacia(q) loop
+         p := coger_primero(q);
+         borrar_primero(q);
+         poner(qu, p.x);
+
+         p := p.pc;
+
+         while p /= null loop
+            poner(q, p);
+            p := p.pb;
+         end loop;
+      end loop;
+
+   end r_amplitud;
 
 end darbolordinario;
