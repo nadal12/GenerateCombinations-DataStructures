@@ -1,3 +1,5 @@
+------------------------PAQUETE DE ESPECIFICACIÓN DTAULER-----------------------
+
 package dtauler is
 
    type tauler is private;
@@ -11,6 +13,7 @@ package dtauler is
    procedure clone (t1: in tauler; t2: out tauler);
    procedure print (t: in tauler);
    procedure mouJugador(t: in out tauler; numJugador: in integer; cella: in tcella);
+
    function getDimensio(t: in tauler) return integer;
    function getNumJugadors(t: in tauler) return integer;
    function isCasellaBuida(t: in tauler; cella: in tcella) return Boolean;
@@ -34,5 +37,4 @@ private
    numJugadors: integer := 2;
    type peces is ('-', 'X', 'O');
    type tauler is array (1..dimensio, 1..dimensio) of peces;
-
 end dtauler;

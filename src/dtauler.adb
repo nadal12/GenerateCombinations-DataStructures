@@ -1,13 +1,17 @@
+------------------------PAQUETE DE IMPLEMENTACIÓN DCOLA-------------------------
+
 with Ada.Text_IO;
 use Ada.Text_IO;
 
 package body dtauler is
 
+   --Crea un tablero vacío.
    procedure empty (t: out tauler) is
    begin
       t := (others => (others => peces'First));
    end empty;
 
+   --Imprime por pantalla un tablero.
    procedure print (t: in tauler) is
       p: peces;
       s: String(1..3);
@@ -24,36 +28,43 @@ package body dtauler is
       New_Line;
    end print;
 
+   --Mueve el jugador indicado en el tablero y celda indicada.
    procedure mouJugador(t: in out tauler; numJugador: in integer; cella: in tcella) is
    begin
       t(cella.fila, cella.columna) := peces'Val(numJugador);
    end mouJugador;
 
+   --Devuelve la dimensión de un tablero.
    function getDimensio(t: in tauler) return integer is
    begin
       return dimensio;
    end getDimensio;
 
+   --Devuelve la cantidad de jugadores que participan en la partida.
    function getNumJugadors(t: in tauler) return integer is
    begin
       return numJugadors;
    end getNumJugadors;
 
+   --Devuelve un booleano indicando si la casilla especificada esta vacía.
+   -- True: Casilla vacía.
+   -- False: Casilla llena.
    function isCasellaBuida(t: in tauler; cella: in tcella) return Boolean is
    begin
       return t(cella.fila, cella.columna) = peces'First;
    end isCasellaBuida;
 
+   --Clona un tablero a otro.
    procedure clone (t1: in tauler; t2: out tauler) is
    begin
       t2 := t1;
    end clone;
 
+   --Devuelve el jugador correspondiente al string pasado por parámetro.
    function getJugador(p: in string) return integer is
    begin
       return peces'Pos(peces'Value("'"& p &"'"));
    end getJugador;
-
 
    -- totes les caselles ocupades per peces 'X' o 'O'
    function isTaulerComplet(t: in tauler) return boolean is
@@ -73,7 +84,7 @@ package body dtauler is
 
    end isTaulerComplet;
 
- --Funcio que retorna si el tauler conte
+   --Funció que retorna si el tauler conte
    --una disposicio de peces pel jugador 'jugador'
    --que formin una linia (horitzontal o vertical)
    function isLinia(t: in tauler; jugador: in integer) return boolean is
@@ -110,10 +121,6 @@ package body dtauler is
    -- Funció que retorna si el tauler conté
    -- una disposicié de peces pel jugador 'jugado'
    -- que formin una diagonal (normal o inversa)
-
-   --¿Comprobar que el centro este ocupado por el jugador correspondiente.?
-
-   --DE MOMENTO SÓLO FUNCIONA EN TABLEROS 3X3.
    function isDiagonal (t: in tauler; jugador: in integer) return Boolean is
 
 
@@ -158,6 +165,9 @@ package body dtauler is
 
    end isDiagonal;
 
+   --Devuelve un booleano indicando si el juego ha sido ganado por algún jugador.
+   -- True: Juego ganado.
+   -- False: Juego no ganado.
    function isJocGuanyat (t: in tauler; jugador: in integer) return boolean is
 
    begin
@@ -165,6 +175,5 @@ package body dtauler is
       return isDiagonal(t, jugador) or isLinia(t, jugador);
 
    end isJocGuanyat;
-
 
 end dtauler;

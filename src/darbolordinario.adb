@@ -1,3 +1,5 @@
+-------------------PAQUETE DE IMPLEMENTACIÓN DARBOLORDINARIO--------------------
+
 package body darbolordinario is
 
    --Procedimiento que vacía un arbol

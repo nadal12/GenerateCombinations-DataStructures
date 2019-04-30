@@ -240,12 +240,12 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\dcola.o
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\darbolordinario.o
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\dtauler.o
-   --   C:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\espaiestats.o
-   --   -LC:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\
-   --   -LC:\Users\Nadal\Desktop\Ada Projects\practica2\practica-2\obj\
+   --   C:\Users\Nadal\Desktop\3enraya\practica-2\obj\dcola.o
+   --   C:\Users\Nadal\Desktop\3enraya\practica-2\obj\darbolordinario.o
+   --   C:\Users\Nadal\Desktop\3enraya\practica-2\obj\dtauler.o
+   --   C:\Users\Nadal\Desktop\3enraya\practica-2\obj\espaiestats.o
+   --   -LC:\Users\Nadal\Desktop\3enraya\practica-2\obj\
+   --   -LC:\Users\Nadal\Desktop\3enraya\practica-2\obj\
    --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat
