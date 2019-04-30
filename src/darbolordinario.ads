@@ -29,7 +29,6 @@ generic
    procedure r_amplitud(t: in arbol);
    procedure r_amplitud(t: in arbol; qu: out cola);
 
-
 private
 
    type nodo;

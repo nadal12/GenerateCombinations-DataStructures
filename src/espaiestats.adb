@@ -44,6 +44,10 @@ procedure espaiestats is
    --Declaración de un árbol. 
    package darboltauler is new darbolordinario(estat, print, micola);
    use darboltauler;
+   
+   type parbol is access arbol; 
+   package dcolaarbol is new dcola(parbol); 
+   use dcolaarbol; 
   
    --Declaración de variables. 
    lastPlayer: integer; 
@@ -51,26 +55,30 @@ procedure espaiestats is
    t: tauler; 
    index: integer:=1;  
    e: estat; 
-   a: arbol;
+   a: parbol:=null;
    DIM: integer;
    
    --Algoritmo que genera el espacio de estados para un determinado estado
    --inicial
-   procedure genera_estats(t: in out arbol) is
+   procedure genera_estats(t: in out parbol) is
       s, saux: estat; --Estado
       b: tauler; --Tablero
       j: integer; --Jugador
-      cont: boolean;
       c: tcella; --Celda
-
-   begin
+      qu: dcolaarbol.cola;
+     -- pt: parbol; 
       
-      cont := true;
+   begin
+       
+      cvacia(qu);
+      dcolaarbol.poner(qu, t);
 
-      while cont loop
+      while not esta_vacia(qu) loop
+         
+         borrar_primero(qu); 
          
          --Se obtiene el estado. 
-         s := raiz(t);    
+         s := raiz(t.all);    
          
          if not isJocGuanyat(s.t, s.jugador) then
             --Determinar qué jugador tiene el turno. 
@@ -99,30 +107,29 @@ procedure espaiestats is
 
                      saux.t:=b;
 
-                     añadir_hijo(t, saux);
+                     añadir_hijo(t.all, saux);
                   
                   end if;
                end loop columnas;
             end loop filas;
 
             --Verificar si el árbol tiene hijos
-            if e_primer_hijo(t) then
-               primer_hijo(t, t);
-               
-               --Generar estados hijos del primer hijo
-               genera_estats(t); 
-               padre(t, t);
+            if e_primer_hijo(t.all) then
+               primer_hijo(t.all, t.all);
+               poner(qu, t);
+              
+               --Encolar los hermanos. 
+               while e_hermano(t.all) loop
+                  hermano(t.all, t.all); 
+                  poner(qu, t); 
+               end loop; 
+                              
             end if;
             
          end if; 
-         
-         --Verificar si subarbol tiene subarbol hermano
-         if e_hermano(t) then
-            hermano(t,t);
-         else
-            cont := false;
-         end if;
 
+         t := coger_primero(qu);
+         
       end loop;
 
    end genera_estats;
@@ -169,13 +176,13 @@ begin
    e.jugador:=lastPlayer; 
    
    --Creación del árbol con el estado inicial como raíz. 
-   atomo(a, e); 
+   atomo(a.all, e); 
    
    --Llamada a la función que va a generar todos los estados (hijos) del juego. 
    genera_estats(a);
    
    --Llamada al recorrido en amplitud para imprimir por pantalla los estados 
    --de manera ordenada. 
-   r_amplitud(a);
+   r_amplitud(a.all);
    
 end espaiestats;

@@ -88,76 +88,71 @@ package body dtauler is
    --una disposicio de peces pel jugador 'jugador'
    --que formin una linia (horitzontal o vertical)
    function isLinia(t: in tauler; jugador: in integer) return boolean is
-      type array_tipus is array(1..2) of peces;
-      array_peces: array_tipus;
+
+      j: peces;
+
    begin
-      array_peces(1..2) := ('X', 'O');
+      j := peces'Val(jugador);
 
-      for i in 1..dimensio loop
-         case i is
-            when 1 => if t(i,i) = array_peces(jugador) and then
-                    t(i+1, i+1) = array_peces(jugador) and then
-                    t(i+2, i+2) = array_peces(jugador) then return true;
+      if t(1,1) = j or t(2,2) = j or t(3,3) = j then
+
+         for i in 1..dimensio loop
+            case i is
+            when 1 =>
+               if t(i,i) = j then
+                  if t(i, i+1) = j and then t(i, i+2) = j then
+                     return true;
+                  end if;
+
+                  if t(i+1, i) = j and then t(i+2, i) = j then
+                     return true;
+                  end if;
                end if;
 
-            when 2 => if t(i,i) = array_peces(jugador) and then
-                    t(i+1, i+1) = array_peces(jugador) and then
-                    t(i-1, i-1) = array_peces(jugador) then return true;
+            when 2 =>
+               if t(i,i) = j then
+                  if t(i, i+1) = j and then t(i, i-1) = j then
+                     return true;
+                  end if;
+
+                  if t(i+1, i) = j and then t(i-1, i) = j then
+                     return true;
+                  end if;
                end if;
+            when 3 =>
+               if t(i,i) = j then
+                  if t(i, i-1) = j and then t(i, i-2) = j then
+                     return true;
+                  end if;
 
-            when 3 => if t(i,i) = array_peces(jugador) and then
-                    t(i-1, i-1) = array_peces(jugador) and then
-                    t(i-2, i-2) = array_peces(jugador) then return true;
+                  if t(i-1, i) = j and then t(i-2, i) = j then
+                     return true;
+                  end if;
                end if;
-            when others => return false;
-         end case;
+               when others => return false;
+            end case;
+         end loop;
+      end if;
 
-      end loop;
-
-     return false;
+      return false;
 
    end isLinia;
-
    -- Funció que retorna si el tauler conté
    -- una disposicié de peces pel jugador 'jugado'
    -- que formin una diagonal (normal o inversa)
    function isDiagonal (t: in tauler; jugador: in integer) return Boolean is
 
+      j: peces;
 
    begin
 
-      --Jugador 1 -> X
-      if jugador = 1 then
+      j := peces'Val(jugador);
 
-         --Comprobar que la casilla central esté ocupada por la ficha del jugador 1.
-         if t(2,2) /= 'X' then
+      if t(2,2) =j then
 
-            return false;
-
-         end if;
-
-         --Comprobar las demás casillas para formar la diagonal.
-         if ((t(1,1) = 'X') and (t(3,3) = 'X')) or ((t(1,3)='X') and (t(3,1)='X')) then
-
-            return true;
-
-         end if;
-
-      --Jugador 2 -> O
-      else
-          --Comprobar que la casilla central esté ocupada por la ficha del jugador 2.
-          if t(2,2) /= 'O' then
-
-            return false;
-
-         end if;
-
-         --Comprobar las demás casillas para formar la diagonal.
-         if ((t(1,1) = 'O') and (t(3,3) = 'O')) or ((t(1,3)='O') and (t(3,1)='O')) then
-
-            return true;
-
-         end if;
+      if (t(1,1) = j and t(3,3) = j) or (t(1,3)=j and t(3,1)=j) then
+         return true;
+      end if;
 
       end if;
 
