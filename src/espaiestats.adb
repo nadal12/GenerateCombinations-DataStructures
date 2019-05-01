@@ -67,7 +67,6 @@ procedure espaiestats is
       c: tcella; --Celda
       qu: dcolaarbol.cola;
 
-      holaa; 
    begin
        
       cvacia(qu);
