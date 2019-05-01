@@ -69,7 +69,7 @@ procedure espaiestats is
 
    begin
        
-      
+      sdsd
       ddfd
         
       cvacia(qu);
