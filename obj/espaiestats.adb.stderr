@@ -1,7 +1,9 @@
-espaiestats.adb:73:28: expected type "parbol" defined at line 48
-espaiestats.adb:73:28: found private type "arbol" defined at darbolordinario.ads:13, instance at line 45
-espaiestats.adb:118:37: expected type "parbol" defined at line 48
-espaiestats.adb:118:37: found private type "arbol" defined at darbolordinario.ads:13, instance at line 45
-espaiestats.adb:123:40: expected type "parbol" defined at line 48
-espaiestats.adb:123:40: found private type "arbol" defined at darbolordinario.ads:13, instance at line 45
-espaiestats.adb:130:10: left hand of assignment must not be limited type
+espaiestats.adb:73:07: "ddfd" is undefined
+espaiestats.adb:73:11: missing ";"
+espaiestats.adb:76:28: expected type "parbol" defined at line 48
+espaiestats.adb:76:28: found private type "arbol" defined at darbolordinario.ads:13, instance at line 45
+espaiestats.adb:121:37: expected type "parbol" defined at line 48
+espaiestats.adb:121:37: found private type "arbol" defined at darbolordinario.ads:13, instance at line 45
+espaiestats.adb:126:40: expected type "parbol" defined at line 48
+espaiestats.adb:126:40: found private type "arbol" defined at darbolordinario.ads:13, instance at line 45
+espaiestats.adb:133:10: left hand of assignment must not be limited type

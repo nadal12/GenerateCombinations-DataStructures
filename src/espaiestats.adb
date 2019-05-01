@@ -69,6 +69,9 @@ procedure espaiestats is
 
    begin
        
+      
+      ddfd
+        
       cvacia(qu);
       dcolaarbol.poner(qu, t);
 
