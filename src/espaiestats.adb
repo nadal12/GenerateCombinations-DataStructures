@@ -45,8 +45,7 @@ procedure espaiestats is
    package darboltauler is new darbolordinario(estat, print, micola);
    use darboltauler;
    
-   type parbol is access arbol; 
-   package dcolaarbol is new dcola(parbol); 
+   package dcolaarbol is new dcola(arbol); 
    use dcolaarbol; 
   
    --Declaración de variables. 
@@ -61,6 +60,7 @@ procedure espaiestats is
    --Algoritmo que genera el espacio de estados para un determinado estado
    --inicial
    procedure genera_estats(t: in out arbol) is
+      
       s, saux: estat; --Estado
       b: tauler; --Tablero
       j: integer; --Jugador
@@ -69,9 +69,6 @@ procedure espaiestats is
 
    begin
        
-      sdsd
-      ddfd
-        
       cvacia(qu);
       dcolaarbol.poner(qu, t);
 
@@ -136,6 +133,79 @@ procedure espaiestats is
 
    end genera_estats;
 
+   --Algoritmo que genera el espacio de estados para un determinado estado
+   --inicial
+--     procedure genera_estats(t: in out arbol) is
+--        s, saux: estat; --Estado
+--        b: tauler; --Tablero
+--        j: integer; --Jugador
+--        cont: boolean;
+--        c: tcella; --Celda
+--  
+--     begin
+--        
+--        cont := true;
+--  
+--        while cont loop
+--           
+--           --Se obtiene el estado. 
+--           s := raiz(t);    
+--           
+--           if not isJocGuanyat(s.t, s.jugador) then
+--              --Determinar qué jugador tiene el turno. 
+--              if s.jugador = 1 then
+--                 j := 2;
+--              else
+--                 j := 1;
+--              end if;
+--  
+--              saux.jugador:=j;
+--           
+--              --Anadir hijos a raíz del árbol
+--              filas:
+--              for i in 1..DIM loop
+--                 c.fila := i;
+--              
+--                 columnas:
+--                 for k in 1..DIM loop
+--                    c.columna := k;
+--                 
+--                    --Obtener tablero. 
+--                    b := s.t;       
+--                 
+--                    if isCasellaBuida(b, c) then
+--                       mouJugador(b, j , c); 
+--  
+--                       saux.t:=b;
+--  
+--                       añadir_hijo(t, saux);
+--                    
+--                    end if;
+--                 end loop columnas;
+--              end loop filas;
+--  
+--              --Verificar si el árbol tiene hijos
+--              if e_primer_hijo(t) then
+--                 primer_hijo(t, t);
+--                 
+--                 --Generar estados hijos del primer hijo
+--                 genera_estats(t); 
+--                 padre(t, t);
+--              end if;
+--              
+--           end if; 
+--           
+--           --Verificar si subarbol tiene subarbol hermano
+--           if e_hermano(t) then
+--              hermano(t,t);
+--           else
+--              cont := false;
+--           end if;
+--  
+--        end loop;
+--  
+--     end genera_estats;
+   
    --Rellena el tablero según los datos pasados por parámetro. 
    procedure omplir_tauler(t: in out tauler; estat: in out String) is
 
