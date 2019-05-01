@@ -55,19 +55,19 @@ procedure espaiestats is
    t: tauler; 
    index: integer:=1;  
    e: estat; 
-   a: parbol:=null;
+   a: arbol;
    DIM: integer;
    
    --Algoritmo que genera el espacio de estados para un determinado estado
    --inicial
-   procedure genera_estats(t: in out parbol) is
+   procedure genera_estats(t: in out arbol) is
       s, saux: estat; --Estado
       b: tauler; --Tablero
       j: integer; --Jugador
       c: tcella; --Celda
       qu: dcolaarbol.cola;
-     -- pt: parbol; 
-      
+
+      holaa; 
    begin
        
       cvacia(qu);
@@ -78,7 +78,7 @@ procedure espaiestats is
          borrar_primero(qu); 
          
          --Se obtiene el estado. 
-         s := raiz(t.all);    
+         s := raiz(t);    
          
          if not isJocGuanyat(s.t, s.jugador) then
             --Determinar qué jugador tiene el turno. 
@@ -107,28 +107,28 @@ procedure espaiestats is
 
                      saux.t:=b;
 
-                     añadir_hijo(t.all, saux);
+                     añadir_hijo(t, saux);
                   
                   end if;
                end loop columnas;
             end loop filas;
 
             --Verificar si el árbol tiene hijos
-            if e_primer_hijo(t.all) then
-               primer_hijo(t.all, t.all);
-               poner(qu, t);
+            if e_primer_hijo(t) then
+               primer_hijo(t, t);
+               dcolaarbol.poner(qu, t);
               
                --Encolar los hermanos. 
-               while e_hermano(t.all) loop
-                  hermano(t.all, t.all); 
-                  poner(qu, t); 
+               while e_hermano(t) loop
+                  hermano(t, t); 
+                  dcolaarbol.poner(qu, t); 
                end loop; 
                               
             end if;
             
          end if; 
 
-         t := coger_primero(qu);
+         t := dcolaarbol.coger_primero(qu);
          
       end loop;
 
@@ -176,13 +176,13 @@ begin
    e.jugador:=lastPlayer; 
    
    --Creación del árbol con el estado inicial como raíz. 
-   atomo(a.all, e); 
+   atomo(a, e); 
    
    --Llamada a la función que va a generar todos los estados (hijos) del juego. 
    genera_estats(a);
    
    --Llamada al recorrido en amplitud para imprimir por pantalla los estados 
    --de manera ordenada. 
-   r_amplitud(a.all);
+   r_amplitud(a);
    
 end espaiestats;
