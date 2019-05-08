@@ -2,7 +2,7 @@
 
 --Tipo genérico. 
 generic
-   type item is limited private; 
+   type item is private; 
 
 package dcola is
    type cola is limited private;
