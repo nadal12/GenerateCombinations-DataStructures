@@ -1,1 +1,1 @@
-Práctica 2 de la asignatura de Estructura de Datos
+Práctica 2 de la asignatura de Estructura de Datos. Para más información, consultar el archivo "practica2.pdf"
